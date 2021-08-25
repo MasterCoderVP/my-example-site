@@ -1,0 +1,404 @@
+.first{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-image: linear-gradient(to right,rgba(114, 57, 158, 0.2),rgb(181,126,220,1));
+    
+}
+h1{
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    font-size:500%;
+    padding-left:11%;
+    padding-right:11%;
+    padding-top:15%;
+    text-align:inherit;
+    font-weight:bolder;
+    
+}
+.first p{
+    font-size:130%;
+    padding-left:11%;
+    padding-right:11%;
+    text-align:inherit;
+}
+.first button:nth-of-type(1){
+    background-color: black;
+    color: white;
+    border-radius:2px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:3%;
+    min-width: 185px;
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-left:10%;
+    font-weight: bold;
+}
+.first button:nth-of-type(2){
+    background-color: transparent;
+    color:black;
+    border-radius:2px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:3%;
+    min-width: 185px;
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.first img{
+    width:50%;
+    height:auto;
+    padding-right:2%;
+    padding-top:3%;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.second_inner{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-left: 5%;
+    
+}
+.second h2{
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top:10%;
+    font-size: 200%;
+    font-weight:bolder;
+}
+.second p{
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:150%;
+    padding-left:8%;
+    padding-right:8%;
+}
+.second_inner img{
+    width:300px;
+    height:auto;
+    padding-left:27%;
+}
+
+.second_inner h2{
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size: 250%;
+    margin-top:unset;
+}
+.second_inner p{
+    font-size: 110%;
+}
+.customer button {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+    min-width:400px;
+    padding:3%;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 15%;
+    background-color:transparent;
+}
+.employee button{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+    min-width:400px;
+    padding:3%;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 15%;
+    background-color: transparent;
+}
+#divider{
+    width: 2px;
+  margin: 6px 0;
+  background:grey;
+  align-self: stretch;
+  
+}
+button:hover{
+    cursor:pointer;
+    border: 2px solid black;
+}
+.third{
+    background-color:rgb(19, 28, 36);
+    color: white;
+    text-align: center;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    padding-bottom: 10%;
+}
+.third h2{
+    margin-top:10%;
+    font-size: 200%;
+    font-weight:bolder;
+    padding-top:10%;
+    padding-bottom: 1%;
+}
+.third p{
+    font-size:110%;
+
+    padding-right:2%;
+
+}
+.third_inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin-left:10%;
+}
+.third_inner img{
+    padding-top:10%;
+    width:75px;
+    height:auto;
+    
+}
+.third_inner p{
+    padding-right:10%;
+}
+ span{
+    color:#d82b00;
+    font-weight:700px;
+}
+.icons{
+    padding-top:2%;
+}
+.fourth{
+    text-align: center;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.fourth h2{
+    font-size: 200%;
+    font-weight:bolder;
+    padding-top:4%;
+}
+.fourth p{
+    padding-right:10%;
+    padding-left:10%;
+}
+.logos{
+    display:inline-block;
+    margin:10%;
+    margin-top:5%;
+}
+.logos img{
+    width: 16%;
+    height: auto;
+}
+.testimonials{
+    margin-top:unset;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    background-color:#F8F6F6;
+    background-size:cover;
+    height:auto;
+    overflow:hidden;
+    text-align:center;
+    
+}
+#customers-testimonial{
+    padding:40px 0;
+}
+.testimonial img{
+    max-width:159px;
+    margin:0 auto 0 auto;
+    padding:5px;
+    margin-bottom: 13px;
+}
+.testimonial blockquote{
+    border:0;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    padding:5px 150px;
+    position:relative;
+}
+.testimonial blockquote:before, .testimonial blockquote:after{
+    font-size: 110%;
+    line-height: 1;
+    width:30px;
+    height:30px;
+    position:absolute;
+
+}
+.testimonial-author p{
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+}
+.testimonial-author p strong{
+    display:block;
+}
+.fifth{
+    display:flex;
+    flex-direction: column;
+    margin-left:5%;
+    justify-content: center;
+}
+.fifth_inner{
+    display:flex;
+    flex-direction: row;
+}
+.fifth img{
+    width:300px;
+    height:auto;
+    padding-left: 5%;
+    padding-right:5%;
+}
+.fifth strong{
+    display: block;
+    font-weight: bold;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.fifth p{
+    padding-right:10%;
+    font-size: medium;
+}
+#life_at_freshworks{
+    background-color: black;
+    color: white;
+    border-radius:2px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    min-width: 100px;
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-left:35%;
+    font-weight: bold;
+    margin-top:5%;
+    padding:2%;
+}
+.sixth{
+    margin-top:10%;
+    display:flex;
+    flex-direction: column;
+    margin-left:5%;
+    justify-content: center;
+    text-align: center;
+    
+}
+.sixth h2{
+    padding-bottom:2%;
+}
+.sixth_inner{
+    display:flex;
+    flex-direction: row;
+    width:33%;
+    cursor:pointer; 
+}
+.sixth img{
+    padding:5%;
+    padding-left:unset;
+    height:60%;
+    
+}
+.sixth strong{
+    display: block;
+    font-weight: bold;
+    font-family: 'Roborto',Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding-top:2%;
+}
+.sixth p{
+    font-size: medium;
+    padding-top:2%;
+}
+#news{
+    background-color: black;
+    color:white;
+    border-radius:2px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:2%;
+    min-width: 185px;
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.last{
+   text-align: center;
+   background-image: url(images/final.png);
+   background-color: black;
+   background-size: cover;
+   color:white;
+   font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+.last h2{
+    padding-top:10%;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.last p{
+    padding-top:3%;
+    font-size: 130%;
+    padding-left:10%;
+    padding-right:10%;
+    font-weight:400;
+}
+.last button{
+    background-color:white;
+    color:black;
+    border-radius:2px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:1%;
+    min-width: 185px;
+    font-family:'Roborto',Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+    
+}
+    
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
